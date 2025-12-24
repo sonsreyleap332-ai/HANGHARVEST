@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title> Hang Harvest  </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hang Harvest Agriculture. HHA located in Trapeang Prasat District, Oddar Meanchey Province, around 30 kms away from Choam Sangam international port.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--icon facebook -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css//bootstrap.css">
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/js/bootstrap.js">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+   
+.buttons1{
+  height: 10px;
+}
+
+</style>
+<body >
+
+   
+<nav>
+  <div  class="buttons1" style="margin-left:200px; margin-top: 5px; ">
+           <a href="./Products.html"> <button type="button" class="btn btn-danger"> come back</button></a>
+        </div>
+
+ <div class="containers text-center">
+         <div class="slide">
+            <div class="item" style="background-image: url(/img/hha/product/tapioca_01.webp);">
+                <div class="content">
+                    <div class="name" style="color: black; font-size: 30px;">HANG HARVEST in Cambodia</div>
+                    
+                </div>
+            </div>
+            <div class="item" style="background-image: url(/img/hha/about/cassava-01.jpg);">
+                <div class="content">
+                    <div class="name"style="color: black; font-size: 30px;">HANG HARVEST in Cambodia</div>
+                    
+                </div>
+            </div>
+             <div class="item" style="background-image: url(/img/hha/product/pd_200.jpg);">
+                <div class="content">
+                    <div class="name"style="color: black;font-size: 30px;">HANG HARVEST in Cambodia</div>
+                    
+                </div>
+            </div>
+            <div class="item" style="background-image: url(/img/hha/product/pd_100.jpg);">
+                <div class="content">
+                    <div class="name"style="color: black;font-size: 30px;">HANG HARVEST in Cambodia</div>
+                   
+                </div>
+            </div>
+            
+            </div>
+            
+           
+        <div class="button">
+            <button class="next"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="prev"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        
+    </div>
+    </nav>
+
+    
+
+    <script >
+let next = document.querySelector('.next')
+let prev = document.querySelector('.prev')
+
+next.addEventListener('click', function(){
+    let iterms = document.querySelectorAll('.item')
+    document.querySelector('.slide').appendChild(iterms[0])
+})
+prev.addEventListener('click', function(){
+    let iterms = document.querySelectorAll('.item')
+    document.querySelector('.slide').prepend(iterms[iterms.length-1])
+})
+</script>
+</body>
+</html> 

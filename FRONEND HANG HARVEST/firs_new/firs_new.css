@@ -1,0 +1,99 @@
+ /*--------firs new----------------------------------*/
+    .facebooks {
+        width: 500px;
+        height: 100px;
+         margin-left:-970px;
+         margin-top: 60px;
+        padding-left: 40px;
+       
+    }
+     /* icon facebook*/
+    #facebooks{
+        font-size: 40px;
+         margin-left:200px;
+    }
+    .cons{
+
+        width: 25px;
+        height: 25px;
+        background-color:red; 
+        position: absolute;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-left:230px;
+        margin-top: -50px;
+       color:black;
+       border-radius: 30px;
+      }
+     /* ______________the end*/
+      
+      .telegrams{
+        width: 200px;
+        height: 100px;
+       /* background-color: aqua;*/
+        display: flex;
+        margin-left:260px;
+        margin-top: -40px;
+     }
+     #telagrams{
+        font-size: 40px;
+     }
+      .conts{
+
+        width: 25px;
+        height: 25px;
+        background-color:red; 
+        position: absolute;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-left:35px;
+        margin-top: -10px;
+       color:black;
+       border-radius: 30px;
+      }
+      #menues{
+        margin-left: 300px;
+        
+      }
+      
+      /* _____firs-new1_________the end*/
+ 
+    .contentText img{
+            width: 100% !important;
+        }
+		.contentText p iframe {
+                display: block;
+				margin-left: auto;
+				margin-right: auto;
+        }
+        figure img {
+            width: 100%;
+        }
+  #facebook{
+        font-size: 40px;
+        color: blue;
+        margin-left: 40px;
+    }
+    #con{
+        width: 25px;
+        height: 25px;
+        background-color: red;
+        border-radius: 15px;
+        margin-left: 75px;
+        margin-top: -57px;
+    }
+    #telagram{
+        font-size: 40px;
+        color: blue;
+        margin-left: 15px;
+    }
+     #cont{
+        width: 25px;
+        height: 25px;
+        background-color: red;
+        border-radius: 15px;
+        margin-left: 46px;
+        margin-top: -57px;
+    }
